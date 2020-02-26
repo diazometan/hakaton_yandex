@@ -1,0 +1,7 @@
+@import url(./__link/professor__link.css);
+@import url(./__text/professor__text.css);
+
+.professor{
+    margin-top: 100px;
+    margin-left: 50%;
+}
