@@ -1,22 +1,5 @@
 @import url(../blocks/user-info/user-info.css);
 @import url(../blocks/header/header.css);
-
-.root {
-    max-width: 1024px;
-    margin: auto;
-    font-family: 'Inter';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 16px 16px;
-}
-
-.img {
-    height: 300px;
-    background-color: #000000;
-}
+@import url(../blocks/root/root.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/item/item.css)
